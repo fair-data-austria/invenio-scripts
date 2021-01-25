@@ -37,3 +37,7 @@ invenio index init --force
 # Add demo data
 # -------------
 invenio rdm-records demo
+
+# Import vocabularies
+# ---------------
+invenio vocabularies import languages licenses
